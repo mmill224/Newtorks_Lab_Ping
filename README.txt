@@ -4,7 +4,7 @@ A small python program I made to make a Networks class assigment easier
 
 
 The assignment was to ping a KSU server 100 times and make a histogram of the data. The program prints on the left the number of 
-milliseconds, and to the right, it prints a number of pluses equal to the number of pings at that number of miliseconds in the console.
+milliseconds, and to the right, it prints a number of pluses equal to the number of pings at that number of milliseconds in the console.
 
 The program reads the response from a ping, looks for the number of milliseconds it took, and fills up an array with that. Then the 
 program performs a bucket sort on the data from the first array - the index of the sorted array is equal to the number of miliseconds, and
